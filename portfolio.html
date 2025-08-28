@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Ahmed's portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Ahmed's Portfolio</div class="left">
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div class="right">
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">Hi, My name is<span class="purple"> Ahmed</span>,<div>I am a passionate</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="bg.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Journey:</h1>
+            <div class="main">
+            <div>Web Development(2023-2025)</div>
+            <div>Flutter Development(2025)</div>
+            <div>UI/UX Designing(2025)</div>
+            </div>
+        </section>
+        <hr class="hr-2">
+        <section class="thirdSection">
+            <h1>Certificates</h1>
+            <div class="third-div">Currently Unavailible!</div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'UI Designer', 'Flutter Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+</html>
